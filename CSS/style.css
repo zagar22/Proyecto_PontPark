@@ -1,0 +1,121 @@
+#carouselExample {
+    max-height: 50% !important; 
+    margin-top: 10px;
+  }
+
+
+  #carouselExample .carousel-inner img {
+    height: 80% !important;
+    width: 80%!important;
+    margin: auto;
+  }
+
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: color 0.3s ease; 
+  }
+
+
+  .navbar-nav .nav-link:hover {
+    color: #cccccc !important; 
+  }
+
+  .background-container {
+    position: relative;
+    height: 600px; /* Ajusta la altura según tus necesidades */
+    color: white; /* Ajusta el color del texto según sea necesario */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Assets/estacionamiento2.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); 
+}
+
+/* Estilo del logotipo superpuesto */
+.logo-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    max-width: 30%;
+    max-height: 30%;
+    mask: url('../Assets/logoFinal.png') center/cover no-repeat;
+}
+
+.custom-grid img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.custom-h1 {
+  max-width: 100%;
+  font-weight: 900;
+}
+
+/*url de imagen para fondo
+https://static.wixstatic.com/media/d33b3c_669f2c688c774ff3be5a833dc07dd372~mv2.jpg/v1/fill/w_996,h_854,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d33b3c_669f2c688c774ff3be5a833dc07dd372~mv2.jpg
+*/
+
+.fondo{
+  background-image: url('https://static.wixstatic.com/media/d33b3c_669f2c688c774ff3be5a833dc07dd372~mv2.jpg/v1/fill/w_996,h_854,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d33b3c_669f2c688c774ff3be5a833dc07dd372~mv2.jpg');
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px; 
+  margin-top: 20px;
+   
+}
+
+
+.card-container .card {
+  border: none;
+}
+
+.card-container .card-body {
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#contadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+#contadores p {
+  font-size: 1.5rem; 
+}
+
+#contadores span {
+  font-size: 2rem; 
+}
+
+#contadores div {
+  text-align: center;
+  margin: 10px; 
+  flex: 1; 
+}
+
+#ocupados {
+  color: red;
+  font-weight: bold;
+}
+
+#libres {
+  color: green;
+  font-weight: bold;
+}

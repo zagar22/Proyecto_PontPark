@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+</head>
+<body class="overflow-hidden">
+
+    <nav class="navbar navbar-expand-lg bg-light  mt-1  my-1">
+        <div class="container-fluid bg-info">
+          <a class="navbar-brand fw-bold text-white" href="inicio.html">
+            <img src="../Assets/esta.png" alt="" width="50px"> E-Parking
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active fw-bold  " aria-current="page" href="inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-bold " href="estacionamiento.html">Estacioné</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link fw-bold " href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Formulario de contacto -->
+  <div class="bg-gradient bg-info bg-opacity-50 d-flex justify-content-center align-items-center min-vh-100 mb-5">
+    <div class="bg-light p-5 rounded-5 text-secondary shadow position-absolute mb-5 mt-0" style="width: 25rem">
+      <div class="d-flex justify-content-center">
+        <img src="/assets/esta.png" alt="login-icon" style="height: 7rem" />
+      </div>
+      <div class="text-center fs-1 fw-bold">Contacto</div>
+      <form>
+        <div class="input-group mt-4">
+          <div class="input-group-text bg-info">
+            <img src="/assets/username-icon.svg" alt="username-icon" style="height: 1rem" />
+          </div>
+          <input id="nombre" class="form-control bg-light" type="text" placeholder="Nombre" required />
+        </div>
+        <div class="input-group mt-1">
+          <div class="input-group-text bg-info">
+            <img src="/assets/username-icon.svg" alt="username-icon" style="height: 1rem" />
+          </div>
+          <input id="apellido" class="form-control bg-light" type="text" placeholder="Apellido" required />
+        </div>
+        <div class="input-group mt-1">
+          <div class="input-group-text bg-info">
+            <img src="/assets/email_14410.png" alt="email-icon" style="height: 1rem" />
+          </div>
+          <input id="email" class="form-control bg-light" type="email" placeholder="E-mail" required />
+        </div>
+        <div class="input-group mt-1">
+          <div class="input-group-text bg-info">
+            <img src="/assets/telefono.png" alt="phone-icon" style="height: 1rem" />
+          </div>
+          <input id="telefono" class="form-control bg-light" type="tel" placeholder="Teléfono" required />
+        </div>
+        <div class="input-group mt-1">
+          <div class="input-group-text bg-info">
+            <img src="/assets/comentario.png" alt="comment-icon" style="height: 1rem" />
+          </div>
+          <textarea id="comentario" class="form-control bg-light" placeholder="Comentario" required></textarea>
+        </div>
+        <div class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm" onclick="enviarFormulario()">
+          Enviar
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+    <script src="../JS/index.js"></script>
+</body>
+</html>
